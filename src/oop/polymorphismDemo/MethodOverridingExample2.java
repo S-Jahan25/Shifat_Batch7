@@ -16,7 +16,7 @@ public class MethodOverridingExample2 extends MethodOverridingExample{  // exten
        // System.out.println("Name : "+name); dont want to use this parents ,
 
         System.out.println("my name is shifat jahan");
-        System.out.println("my qyalifaction ");
+        System.out.println("my qualifaction ");
 
 
     }

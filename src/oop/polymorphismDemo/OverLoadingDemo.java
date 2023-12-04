@@ -10,7 +10,9 @@ public class OverLoadingDemo {  // class name
    2, different data type
    3. different order of parameter
 
-   Overloading called compile time polymorphism
+
+
+ ********  Overloading called compile time polymorphism : got caught in the compilation it wont work.
  */
 // count as different method only parameter change
 
