@@ -9,9 +9,10 @@
     Few example of using stringFunction:
 
     1.  Example on using .concat
-
+    2.  .trim
+    3. .replaceAll
+    4.  .repeat
    */
-
 
 package stringFunction;  // package name
 
@@ -37,14 +38,34 @@ public class StringFunctionPractice2 {  // class name
            String nextTravel = nextTravelList.trim();
            System.out.println(nextTravel);
 
+           /*
+           .replaceAll will replace all existing  i = e
 
+            */
+               String newTrvelList =   nextTravelList.replaceAll("i", "ee");
+                  System.out.println(newTrvelList);
+
+
+                  /*
+                        .repeat will repeat each line
+                   */
+                  String repeatWord = travelList.repeat(5);
+                   System.out.println(repeatWord);
+
+                   /*
+                           .substring = will print letter or word.
+                    */
+                       String printoneWord =   nextTravelList.substring( 12, 18);
+                             System.out.println(printoneWord);
 
 
     }
 
+    public static void main(String[] args) {  // starts main method.
 
-    public static void main(String[] args) {
         travelPlaning(); // calling the method
+       // StringFunctionPractice2 obj = new StringFunctionPractice2();
+       // obj.travelPlaning();
 
     }
 
