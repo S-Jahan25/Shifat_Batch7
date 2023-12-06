@@ -17,6 +17,7 @@ public class Vegetables {  // class
     String Size;
     String Vitamin;
     String Nutrition;
+    String type;
 
     public static void main(String[] args) {  // main method
 
@@ -29,6 +30,7 @@ public class Vegetables {  // class
         broccoli.Size = "small";
         broccoli.Vitamin = "c";
         broccoli.Nutrition = "Potassium";
+
 
        // printing them:
         System.out.println(broccoli.name);
@@ -52,6 +54,7 @@ public class Vegetables {  // class
         System.out.println(lettuce.Size);
         System.out.println(lettuce.Vitamin);
         System.out.println(lettuce.Nutrition);
+        System.out.println(" my name is shifat");
 
 
     }

@@ -1,4 +1,8 @@
 /*
+
+polimorphism = poly = many and morphism = form
+it ia a greek word whose meaning is "same object having different behavior.
+
         Whar is method orverriding: Its a proccess that declaring method in subclass which already
         present in Superclass .
         why do we use this: to resure code and one interface with multiple interface.

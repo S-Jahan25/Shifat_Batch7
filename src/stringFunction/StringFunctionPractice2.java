@@ -29,7 +29,6 @@ public class StringFunctionPractice2 {  // class name
          */
            String fullTravelList = travelList.concat(nextTravelList);
         System.out.println("This is my full TravelList : "+fullTravelList);
-
         /*
            .trim will remove empty space
 
